@@ -52,6 +52,7 @@ def reproject_raster(in_path, out_path):
                     resampling=Resampling.nearest)
     return(out_path)
 
+# Reprojects the .tiff in mercator coordinates
 # reproject_raster("data.tiff", "data_new.tiff")
 # pause()
 
